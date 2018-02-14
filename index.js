@@ -12,4 +12,5 @@ var del = Object.assign({}, recipes
 )
 function deleteFromObjectByKey(object, key) {
   delete del[key]
+  return del
 }
